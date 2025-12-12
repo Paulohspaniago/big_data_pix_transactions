@@ -103,4 +103,5 @@ Senha: mongo
 2.1 Clique em Salvar e pronto ! A partir dai você pode começar a criar seu dashboard e as perguntas.
 
 3. Segue o exemplo que fiz:
-   
+   https://github.com/Paulohspaniago/big_data_pix_transactions/blob/main/docs/pdf/dashboard1.pdf
+   https://github.com/Paulohspaniago/big_data_pix_transactions/blob/main/docs/pdf/dashboard2.pdf
