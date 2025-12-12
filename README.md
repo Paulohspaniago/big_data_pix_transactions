@@ -1,3 +1,14 @@
+## Propósito desse projeto 
+
+Este projeto tem como objetivo analisar o comportamento das transações PIX ao longo do tempo, buscando compreender padrões de uso, volume financeiro, frequência de transações e possíveis variações temporais. A partir dessa análise, é possível obter uma visão mais clara sobre a dinâmica do PIX como meio de pagamento amplamente utilizado no Brasil.
+
+O MongoDB foi escolhido como banco de dados por sua flexibilidade no armazenamento de grandes volumes de dados semi-estruturados, além de sua boa performance para consultas analíticas em datasets extensos, característica essencial para um contexto de Big Data.
+
+Já o Metabase foi utilizado como ferramenta de visualização por permitir a criação rápida e intuitiva de dashboards interativos, facilitando a exploração dos dados, a construção de análises temporais e a comunicação dos resultados de forma visual e acessível.
+
+Dessa forma, a combinação entre MongoDB e Metabase possibilita uma análise eficiente, escalável e visualmente rica das transações PIX, apoiando a interpretação do seu comportamento ao longo do tempo.
+
+
 ## Configurando o Ambiente MongoDB
 
 1. Execute os contêineres do MongoDB e MongoDB Express: 
