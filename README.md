@@ -3,6 +3,8 @@
 1. Execute os contêineres do MongoDB e MongoDB Express: 
 
 ```bash
+chmod +x permissions.sh && ./permissions.sh
+docker-compose build
 docker-compose up -d
 ```
 
@@ -77,3 +79,28 @@ db.<nome_database>.updateMany(
 ```bash
     db.<nome_database>.countDocuments({ VALOR: { $type: "string" } })
 ```
+
+tudo certo com o MONGO!
+
+# Metabase
+## 1. Introdução
+
+1. Execute os contêineres do Metabase:
+
+```bash
+chmod +x permissions.sh && ./permissions.sh
+docker-compose build
+docker-compose up -d
+```
+
+2. Acesse a GUI do Metabase pelo navegador (`http:\\localhost:3000`) e clique em `adicionar um banco de dados` , quando abrir a janela adicione as informações assim:
+```bash
+host : mongo_service
+Nome do banco de dados : <database_name_do_mongodb>
+Usuário: root
+Senha: mongo
+```
+2.1 Clique em Salvar e pronto ! A partir dai você pode começar a criar seu dashboard e as perguntas.
+
+3. Segue o exemplo que fiz:
+   
